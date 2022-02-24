@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: local('HelveticaNeue'),
+    url('./assets/fonts/Helvetica-Neu-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: local('HelveticaNeue'),
+    url('./assets/fonts/HelveticaNeue.ttf') format('truetype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: local('HelveticaNeue'),
+    url('./assets/fonts/HelveticaNeueMed.ttf') format('truetype');
+  font-weight: bold;
+}

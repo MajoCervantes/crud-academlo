@@ -1,0 +1,154 @@
+.login-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.background-container {
+  position: relative;
+  height: 100%;
+  z-index: -1;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.green {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50%;
+  z-index: -1;
+}
+
+.blue {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  z-index: -1;
+}
+
+.form-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.login {
+  background-color: #2ec76d;
+  border: none;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 8px 0 0 8px;
+  cursor: pointer;
+}
+
+.signup {
+  border: none;
+  padding: 10px;
+  border-radius: 0 8px 8px 0;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.info {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.info > h2 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.mail,
+.password {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.password-box,
+.mail-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  width: 320px;
+  margin-top: 10px;
+}
+
+.password-box > input,
+.mail-box > input {
+  border: none;
+  background-color: #f5f5f5;
+}
+
+.mail-box > input:focus,
+.password-box > input:focus {
+  outline: none !important;
+}
+
+.mail-box > input::placeholder,
+.password-box > input::placeholder {
+  color: #e5e5e5;
+  text-align: start;
+}
+
+.password-box > button {
+  border: none;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.forgotten {
+  width: 100%;
+  position: relative;
+  margin-bottom: 35px;
+  margin-top: 5px;
+}
+
+.forgotten > p {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.submit {
+  width: 100%;
+}
+
+.submit > button {
+  background-color: #2ec76d;
+  border: none;
+  padding: 10px 70px;
+  color: white;
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+}
